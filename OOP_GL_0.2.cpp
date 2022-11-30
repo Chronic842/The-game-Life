@@ -168,13 +168,13 @@ void GRID::Iter()
             if (i < arr.size() - 1 && j > 0 && arr[i + 1][j - 1] == 1) { nb++; }
             if (arr[i][j] == 1)
             {
-                if (nb == 2 || nb == 3) { arr1[i][j] == 1; }
+                if (nb == 2 || nb == 3) {}
                 else { arr1[i][j] = 0; };
             }
             else
             {
                 if (nb == 3) { arr1[i][j] = 1; }
-                else { arr1[i][j] == 0; };
+                else {};
             }
         }
     }
